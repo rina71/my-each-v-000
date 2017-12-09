@@ -3,10 +3,10 @@ def my_each(array)
 
 i = 0
   while i < array.count
-    yield(i)
+    yield(array)
     i = i + 1
     # put argument(s) here
   end
   array
 end
-my_each(array) { |i| puts i}
+my_each(array) { |i|  i}
