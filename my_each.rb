@@ -3,7 +3,7 @@ def my_each(array)
 
 i = 0
   while i < array.count
-    yield(array)
+    yield(i)
     i = i + 1
     # put argument(s) here
   end
